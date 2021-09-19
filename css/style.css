@@ -1,0 +1,138 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #000000;
+    --braco: #fff;
+    --ciza: rgb(187, 187, 187);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Geral*/
+body {
+    background-color: var(--preto);
+    font-family: 'Arial', Times, sans-serif;
+    font-size: 12px;
+    color: var(--braco);
+}
+
+body a {
+    text-decoration: none;
+    color: var(--braco);
+}
+
+bory a:hover {
+    color: var(--ciza);
+}
+
+.img-fundo {
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('https://www.themoviedb.org/t/p/original/cmziOVMQrqvVfrjjQdadMdi2bGL.jpg');
+    left: 400px;
+    background-size: cover;
+}
+
+/*Cabeçario*/
+header .contener {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+header .logo img {
+    margin-right: 40px;
+    height: 30px;
+}
+
+header .contener-esquerdo a {
+    text-decoration: none;
+    color: var(--braco);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: var(--ciza);
+}
+
+.contener-esquerdo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contener-esquerdo img {
+    height: 30px;
+    margin-right: 40px;
+}
+
+.contener-direito a {
+    margin-left: 20px;
+}
+
+.menu-direito {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+.menu-direito i {
+    font-size: 20px;
+}
+
+.menu-direito img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+/*Filme principal*/
+.filme-principal {
+    font-size: 15px;
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.texto {
+    text-align: justify;
+    margin-right: 60%;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.butoes {
+    margin-left: 40px;
+}
+
+.butoes i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.butao {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 10px 30px;
+    border: none;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.butao:hover {
+    background: var(--ciza);
+}
