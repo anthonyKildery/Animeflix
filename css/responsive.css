@@ -1,0 +1,19 @@
+/*
+@media screen and (max-width: 1020px) {
+    .menu-contener {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .contener-esquerdo {
+        display: flex;
+        flex-wrap: wrap;
+    }  
+
+    .contener-direito {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+}
+*/

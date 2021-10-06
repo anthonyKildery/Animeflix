@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/53663b92d6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>ANIMEFLIX</title>
+
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 </head>
 <body>
-    <div class="img-fundo">
-        <header>
-            <div class="contener">
+    <header>
+        <div class="contener">
+            <div class="menu-contener">
                 <div class="contener-esquerdo">
                     <a href="#"><img src="img/logo.png"></a>
                     <div class="menu-esquerdo">
@@ -23,31 +27,55 @@
                     </div><!--FIM MENU-ESQUERDO-->
                 </div><!--FIM CONTENER-ESQUERDO-->
 
-                <div class="contener-direito">
-                    <div class="menu-direito">
+                <div class="menu-direito">
+                    <div class="contener-direito">
                         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                         <a href="#">INFANTIL</a>
                         <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
                         <a href="#"><img src="img/foto-conta.png"></a>
-                    </div><!--FIM MENU_DIREITO-->
-                </div><!--FIM CONTNER-DIREITO-->
-            </div><!--FIM CONTENER-->
-        </header>
+                    </div><!--FIM CONTNER-DIREITO-->
+                </div><!--FIM MENU_DIREITO-->
+            </div><!--FIM MENU-CONTENER-->
+        </div><!--FIM CONTENER-->
+    </header>
 
-        <main>
-            <div class="filme-principal">
-                <div class="contener">
-                    <div class="texto">
-                        <h3 class="titulo">Os Sete Pecados Capitais </h3>
-                        <p class="sinopse">Depois que seu reino é dominado por tiranos, uma princesa tenta encontrar um grupo de cavaleiros perigosos para ajudá-la a recuperar suas terras.</p>
-                    </div><!--FIM TEXTO-->
-                    <div class="butoes">
-                        <button class="butao" role="button"><i class="fas fa-play"></i>Assitir</button>
-                        <button class="butao" role="button"><i class="fas fa-info-circle"></i>Mais Informações</button>
-                    </div><!--FIM BUTOES-->
-                </div><!--FIM CONTENER-->
-            </div><!--FIM FILME-PRINCIPAL-->
-        </main>
-    </div><!--FIM IMG-FUNDO-->
+    <main>
+        <section class="filme-principal">
+            <div class="img-fundo">
+    
+            </div><!--FIM IMG-FUNDO-->
+            <div class="contener">
+                <div class="texto">
+                    <div class="titulo-filme">
+                        <img src="img/titulo_filme_principal.png">
+                    </div><!--FIM TITULO-FIME-->
+                    <p class="sinopse">Depois que seu reino é dominado por tiranos, uma princesa tenta encontrar um grupo de cavaleiros perigosos para ajudá-la a recuperar suas terras.</p>
+                </div><!--FIM TEXTO-->      
+                <div class="butoes">
+                    <button class="butao" role="button"><i class="fas fa-play"></i>Assitir</button>
+                    <button class="butao" role="button"><i class="fas fa-info-circle"></i>Mais Informações</button>
+                </div><!--FIM BUTOES-->
+            </div><!--FIM CONTENER-->
+        </section><!--FIM FILME-PRINCIPAL-->
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/img01.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img02.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img03.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img04.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img05.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img06.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img07.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img08.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img09.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/img10.jpg" alt="" srcset=""></div>
+        </div><!--FIM OWL-CAROUSEL OWL-THEME-->
+    </div><!--FIM CARROSEL-FILMES-->
+
+    <script src="https://kit.fontawesome.com/53663b92d6.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
