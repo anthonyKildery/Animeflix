@@ -29,72 +29,30 @@ bory a:hover {
 }
 
 /*Cabeçario*/
-header .contener {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 40px;
-    font-size: 14px;
-}
-
-.menu-contener {
-    display: flex;
+header .contener{
+    display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
 }
 
-header a:hover {
+header .logo img{
+    width: 150px;
+}
+
+header nav a{
+    text-decoration:none;
     color: var(--ciza);
-}
-
-.logo img {
-    margin-right: 40px;
-    height: 30px;
-}
-
-.contener-esquerdo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.contener-esquerdo a {
-    text-decoration: none;
-    color: var(--braco);
     margin-right: 10px;
-    font-weight: bold;
 }
 
-.contener-esquerdo img {
-    height: 30px;
-    margin-right: 40px;
-}
 
-/*Menu Direito*/
-.contener-direito a {
-    text-decoration: none;
+header nav a:hover{
     color: var(--braco);
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.contener-direito {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.contener-direito i {
-    font-size: 20px;
-}
-
-.contener-direito img {
-    height: 30px;
-    margin-left: 10px;
 }
 
 /*Filme principal*/

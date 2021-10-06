@@ -1,19 +1,25 @@
-/*
-@media screen and (max-width: 1020px) {
-    .menu-contener {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
+@media screen and (max-width:700px) {
+    header .contener{
+    display: flex;
+    flex-direction: column;
     }
 
-    .contener-esquerdo {
-        display: flex;
-        flex-wrap: wrap;
-    }  
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
 
-    .contener-direito {
-        display: flex;
-        flex-wrap: wrap;
-    } 
 }
-*/
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .titulo-filme img {
+        height: 100px;
+    }
+}
